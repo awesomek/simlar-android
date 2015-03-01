@@ -31,6 +31,12 @@ final class GooglePlayServicesHelper
 		throw new AssertionError("This class was not meant to be instantiated");
 	}
 
+	@SuppressWarnings("SameReturnValue")
+	public static boolean gcmEnabled()
+	{
+		return false;
+	}
+
 	@SuppressWarnings({"EmptyMethod", "UnusedParameters"})
 	public static void registerGcmIfNeeded(final Context context)
 	{
