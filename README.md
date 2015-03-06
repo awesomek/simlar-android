@@ -1,4 +1,4 @@
-simlar-android:debug
+simlar-android
 ==============
 
 android simlar
